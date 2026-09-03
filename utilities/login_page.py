@@ -68,4 +68,4 @@ class Login_page(Base):
         main_element = self.get_main_word()
         actual_text = main_element.text.strip()
         print(f"Actual text: '{actual_text}'")
-        self.assert_word(self.get_main_word(), 'PRODUCTS')
+        self.assert_word(self.get_main_word(), 'Products')
